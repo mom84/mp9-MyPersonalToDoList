@@ -1,11 +1,10 @@
 package at.refugeescode.mp9MyPersonalToDoList.controller;
-
-
 import at.refugeescode.mp9MyPersonalToDoList.persistence.model.ToDo;
 import at.refugeescode.mp9MyPersonalToDoList.persistence.repository.ToDoRepository;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
+
 
 @RestController
 @RequestMapping("/todos")
